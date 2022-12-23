@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(7, 63, 76);
+    color: white;
+    padding: 10px 10%;
+}
+
+header .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .header-top p {
+    font-size: 11px;
+    color: aliceblue;
+}
+
+.hair {
+    margin-left: 45px;
+}
+
+header .header-down ul {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gainsboro;
+    padding-top: 5px;
+}
+
+header .header-down ul li {
+    white-space: nowrap;
+    font-size: 14px;
+    color: aliceblue;
+    border-right: 1px solid gainsboro;
+    padding-right: 20px;
+}
+
+.poster {
+    color: white;
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/11/19/21/models-3740627__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding-top: 18vh;
+}
+
+.poster-text {
+    margin-left: 50%;
+}
+
+.card-box {
+    padding: 0 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-top: -70px;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    padding-left: 5px;
+    padding-top: 50px;
+}
+
+.card-box .card1 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/10/11/19/18/models-3740609__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-box .card2 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/15/13/woman-2593366__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-box .card3 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/11/32/woman-1869208__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text {
+
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-text>div {
+    flex: 1;
+
+}
+
+.main-text small {
+    color: gray;
+}
+
+.main-text .main-text-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text .main-text-right>div {
+    width: 300px;
+    border: 2px dotted rgb(7, 63, 76);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main-text-right h3 {
+    color: rgb(7, 63, 76);
+}
